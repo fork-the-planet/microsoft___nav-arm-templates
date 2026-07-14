@@ -495,11 +495,7 @@ If connections to RDP fails, you might need to add an incoming rule to the netwo
     }
 %>
       <tr>
-        <td colspan="2">
-You can view the installation status by following this link.
-        </td>
-        <td></td>
-        <td style="white-space: nowrap"><a href="http://<%=getLandingPageUrl() %>/status.aspx">View Installation Status</a></td>
+        <td colspan="4">To review the installation log, connect to the virtual machine using Remote Desktop and open <i>c:\demo\status.txt</i>.</td>
       </tr>
 <%
   }
